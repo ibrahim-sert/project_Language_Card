@@ -1,0 +1,51 @@
+.cards-ctn{
+    height: 41rem;
+    width: 25rem;
+    background-image: url("https://im.haberturk.com/2022/11/15/3538689_811a02a05fa86225e039e594df12143b_640x640.jpg");
+    background-size: cover;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "top" "bottom";
+    overflow: hidden;
+    
+}
+
+.lang-title{
+    grid-area: top;
+    text-align: center;
+    text-shadow: 2px 2px red;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.cards-box{
+    grid-area: bottom;
+    text-align: center;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.serit{
+    height: 41rem;
+    width: 3rem;
+    background-color:rgb(75, 156, 96);
+    text-shadow: 2px 2px black;
+    position: relative;
+    transform: rotate(-45deg);
+    top: -43rem;
+    left: 10rem;
+    writing-mode: tb-rl;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align:center;
+    z-index: 1;
+    opacity: 0.4;
+    color:red;
+    padding-left: .7rem;
+}

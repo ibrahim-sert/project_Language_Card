@@ -1,0 +1,52 @@
+.card{
+    height: 90px;
+    background-color: rgba(255, 218, 185, 0.57);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.card-logo{
+    width: 65%;
+    height: 70px;
+    
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 2px #2B24B2;
+    
+}
+
+.card:hover .card-logo{
+    transform: scale(1.15);
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+.list{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 500;
+    list-style-position: outside;
+    padding-left: 15px;
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(9, 73, 39, 0.7);
+    height:15.8vh;
+    padding-left: 1.5rem;
+    margin: .6rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+li{
+    /* padding: .3rem; */
+    list-style-type: none;
+    line-height:1.5rem;
+    padding-top: .9rem;
+    padding-right: .9rem;
+   
+}

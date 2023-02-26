@@ -1,0 +1,15 @@
+.logo-ctn{
+    margin: 10px 0;
+}
+
+.first-logo{
+    height: 150px;
+    opacity: 0.9;
+    border-radius: 40%;
+}
+
+.first-logo:hover{
+    opacity: 1;
+    transform: rotateY(360deg);
+    transition: all 2s ease-in-out;
+}
